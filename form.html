@@ -1,0 +1,104 @@
+<html>
+<head>
+  <style>
+    body { background-color: #00bfff; }
+    h1{ 
+      padding: 10px;
+      text-align: center;
+    }
+    .container{
+      padding: 15px;
+      text-align: center;
+      margin: 0 auto ;
+      font-size: 25px;
+      width: 1000px;
+      height: 700px;
+      background-color: white;}
+
+     .form { 
+        display: block;
+        padding:25px;
+        margin-left: 25px; } 
+     .name { color : red;
+             margin : 0 auto;
+             padding: 10px; }
+     input{background-color:white;
+           height: 35px;}
+  </style>
+</head>
+<body>
+  <h1>BIO DATA FORM</h1>
+  
+  <div class="container">
+    <em>To Know the Details of the Student</em>
+
+    <div class="form">
+    <form>
+      <div class = "name">
+       Name : <input type="text" placeholder = "enter name:" required><br>
+      </div>
+
+      <div class = "fname">
+      Father Name : <input type="text" placeholder = "father name:"><br>
+      </div>
+   
+      <div class = "mname">
+      Mother Name : <input type="text" placeholder = "mother name:"><br>
+      </div>
+
+      <div class = "eid">
+      Email-id : <input type = "email" placeholder = "abc@gmail.com" required><br>
+      </div>
+
+      <div class = "age">
+      Age : <input type = "number" placeholder = "age"><br>
+      </div>
+
+      <div class = "mob">
+      Mobile : <input type = "tel" placeholder = "mobile" required><br>
+      </div>
+
+      <div class = "dob">
+      D.O.B : <input type = "date" ><br>
+      </div>
+
+      <div class = "dep">
+      Department :   
+                   <select>
+                     <option disabled value>Select an Option</option>
+                     <option >CSE</option>
+                     <option >ECE</option>
+                     <option >EEE</option>
+                     <option >IT</option>
+                     <option >MECHANICAL</option>
+                     <option >CIVIL</option>
+                   </select> <br>
+     </div>
+    
+     <div class = "gender">
+     Gender : <input type = "radio">Male<br>
+              <input type="radio">Female<br>
+     </div>
+    
+     <div class = "add">
+     Address : <textarea placeholder = "enter your address"></textarea><br>
+     </div>
+  
+     <div class ="pin">
+     Pincode : <input type = "number" placeholder = "5------"><br> 
+     </div>
+
+     <div class = "lan">
+     Languages Known : <input type = "checkbox" >Hindi<br>
+                       <input type = "checkbox">English<br>
+                       <input type = "checkbox">Tamil<br>
+     </div>
+     <input type="submit">
+     <input type="reset">
+    </form>
+    </form>
+    </div>
+  </div>
+  
+</body>
+</html>
