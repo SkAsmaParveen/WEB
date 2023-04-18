@@ -1,0 +1,34 @@
+<html>
+<head>
+ <style>
+   #id { background-color: green; }
+   .class { background-color : pink; text-align: center; margin-bottom:20px;width: 100; height:150px; }
+   a:hover { color : red; }
+   .a{ text-decoration: none; background-color: yellow; padding:10px; margin-bottom:10px;border:20px;}
+   pre { color: brown; }
+
+ </style>
+</head>
+<body>
+
+ <!-- Inline style: Inline style has highest priority among all --> 
+
+ <div>
+ <p style = "background-color : lightblue; padding:10px;"> It is a paragraph using Inline css </p>
+ </div>
+
+ <!-- Id Selector: It has second highest priority -->
+
+ <div class = "id">
+ <h1>This is a heading tag for id selector</h1>
+ </div>
+
+ <!-- Classes, pseudo-classes and attribute selectors has least priority -->
+ 
+ <div class = "class"> Class Selector </div>
+ <a href = "www.google.com" class="a">google</a>
+ <pre>This is a line for attribute selectors</pre>
+
+ 
+
+</body>
