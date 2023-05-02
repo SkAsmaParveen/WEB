@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Reverse of a Number</title>
+</head>
+
+<body>
+<script>
+  var num,rem,before;
+  var rev = 0;
+  num = prompt("Enter a Number to reverse: ");
+  num = parseInt(num);
+  before = num;
+  
+  while(num >= 1) {
+    rem = num % 10;
+    rev = (rev * 10) + rem;
+    num = parseInt(num / 10);
+  }
+  document.writeln("<h1> The Reverse of " +before+ " is: " +rev+ "</h1>");
+</script>
+</body>
+</html>
+    
