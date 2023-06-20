@@ -1,0 +1,26 @@
+<!--The onchange event occurs when the value of an HTML element is changed.-->
+
+<html>
+<head> <title>FormEvents</title> </head>
+<body>
+
+  <h2>"onchange" EVENT </h2>
+  <h4> Select a Branch </h4>
+  
+  <select id = "select" onchange = "onChange()">
+   <option value = "CSE">CSE</option>
+   <option value = "ECE">ECE</option>
+  </select>
+  <p id = "p1"></p>
+
+  <script>
+    function onChange()
+    {
+      var x = document.getElementById("select").value;
+      document.getElementById("p1").innerHTML = "You selected : "+x ;
+    }
+
+  </script>
+</body>
+</html>
+      
