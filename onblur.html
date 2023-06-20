@@ -1,0 +1,19 @@
+<!--The onblur event occurs when an HTML element loses focus.-->
+<html>
+<head><title>onBlur</title></head>
+<body>
+
+  <h1>onblur EVENT</h1>
+  <h3>Enter Your Name</h3>
+  <input type = "text" id = "input" onblur = "onBlur()">
+  
+  <script>
+    function onBlur()
+    {
+       let x = document.getElementById("input");
+       x.value = x.value.toUpperCase();
+    }
+	
+  </script>
+</body>
+</html>
